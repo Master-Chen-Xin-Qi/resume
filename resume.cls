@@ -120,3 +120,7 @@
   {\par \textit{#1} ~ #2 \par}
   \vspace{0.85ex}
 }
+
+% defines one's address
+% usage: \address{<address>}
+\newcommand{\address}[1]{\faHome\ {#1}}
